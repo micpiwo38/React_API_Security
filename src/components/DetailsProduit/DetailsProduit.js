@@ -153,7 +153,7 @@ export default function DetailsProduit() {
                 ) : (
                   <div className="mt-3">
                     <h3 className="text-danger">
-                      Editer le produit qui a l' ID = {un_produit.id} -
+                      Editer le produit = {un_produit.id} -
                       {un_produit.nom_produit}
                     </h3>
                     <form onSubmit={(e) => editer_produit(e, un_produit.id)}>
