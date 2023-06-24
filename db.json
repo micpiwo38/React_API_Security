@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "administrateur",
+      "email": "admin@admin.com",
+      "password": "admin",
+      "role": "administrateur"
+    },
+    {
+      "id": 2,
+      "username": "michael",
+      "email": "mic@gmail.com",
+      "password": "mic",
+      "role": "utilisateur"
+    },
+    {
+      "id": 3,
+      "username": "lucie",
+      "email": "lucie@laposte.net",
+      "password": "lucie",
+      "role": "utilisateur"
+    }
+  ],
+  "produits": [
+    {
+      "id": 1,
+      "nom_produit": "Super Nintendo",
+      "description_produit": "La Super Nintendo — appelée Super Famicom (スーパーファミコン?) au Japon et Super Nintendo Entertainment System (Super NES ou SNES) en Amérique du Nord — est une console de jeux vidéo du constructeur japonais Nintendo commercialisée à partir de novembre 1990. En Amérique du Nord, la console est sortie avec un look résolument différent. À noter qu'en Corée du Sud, la Super Nintendo est distribuée par Hyundai Electronics sous le nom de Super Comboy (슈퍼 컴보이).",
+      "image_produit": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/USA-SNES_-_JPN-SuperFamicom.png/260px-USA-SNES_-_JPN-SuperFamicom.png",
+      "prix_produit": 152.25,
+      "stock_produit": true,
+      "date_produit": "30/02/2023",
+      "proprietaire": 1
+    },
+    {
+      "id": 2,
+      "nom_produit": "Megadrive",
+      "description_produit": "La Mega Drive (メガドライブ, Mega Doraibu?)cn 1, ou Sega Genesis en Amérique du Nord, est une console de jeux vidéo de quatrième génération conçue et commercialisée par le constructeur japonais Sega Enterprises, Ltd. La Mega Drive est la troisième console de Sega, elle succède à la Master System. Sega sort d'abord la console au Japon sous le nom de Mega Drive en 1988, la console est ensuite lancée en 1989 en Amérique du Nord, renommée Genesis sur ce territoire. En 1990, la console sort dans la plupart des autres territoires en tant que Mega Drive.",
+      "image_produit": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Sega_Mega_Drive_PAL.jpg/260px-Sega_Mega_Drive_PAL.jpg",
+      "prix_produit": 412.25,
+      "stock_produit": true,
+      "date_produit": "21/04/2023",
+      "proprietaire": 1
+    },
+    {
+      "nom_produit": "PC-Engine",
+      "description_produit": "La PC-Engine (PCエンジン, Piishii Enjin?), connue sous le nom TurboGrafx-16 en Amérique du Nord, est une console de jeux vidéo 8 bits fabriquée par NEC et commercialisée à partir de 1987 au Japon. En dehors de son pays natal et du territoire nord-américain, la gamme de consoles a connu une existence relativement confidentielle, car peu ou pas distribuée. ",
+      "image_produit": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/PC_Engine.jpg/250px-PC_Engine.jpg",
+      "prix_produit": "1250.25",
+      "stock_produit": true,
+      "date_produit": "2023-06-05",
+      "proprietaire": 1,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "nom_produit": "Vélo de course",
+      "description_produit": "Un super vélo pour faire le tour de France",
+      "image_produit": "https://cdn2.velo-on-line.fr/12009-zoom_default/velo-course-roubaix-26-pouces.jpg",
+      "prix_produit": 1255.25,
+      "stock_produit": true,
+      "date_produit": "2023-06-22T08:16:49.021Z",
+      "proprietaire": 3
+    },
+    {
+      "nom_produit": "MicroKorg",
+      "description_produit": "Le MicroKorg est un synthétiseur numérique à modélisation analogique avec vocoder produit par le constructeur japonais Korg à partir de 2002. Le modèle a été décliné en 2009 avec le MicroKorg XL puis le MicroKorg XL+.",
+      "image_produit": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Microkorg.jpg/250px-Microkorg.jpg",
+      "prix_produit": "299.25",
+      "stock_produit": true,
+      "date_produit": "2023-06-09",
+      "proprietaire": 2,
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.MenuGauche {
+}
+
+a {
+  text-decoration: none !important;
+}
+a:hover {
+  color: rgb(255, 255, 255) !important;
+}
+li:hover {
+  background-color: rgb(168, 28, 28) !important;
+}
